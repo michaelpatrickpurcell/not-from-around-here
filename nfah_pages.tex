@@ -41,6 +41,14 @@
 \usepackage{enumitem}
 \setlist[description]{labelindent=0pt, labelsep=\widthof{ }, leftmargin=\widthof{\textbf{License: }}, font=\setmainfont{URWClassico}\bfseries}
 
+\usepackage[hang,flushmargin]{footmisc}
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
 \usepackage{hyperref}
 \usepackage[type={CC}, version={4.0}, modifier={by-sa}]{doclicense} % Add text and icons for creative commons license
 %\usepackage{array}
@@ -77,7 +85,9 @@ by Michael Purcell
 \normalsize
 \noindent ATTN: All R.H. Employees
 
-Recently, an increasing proportion of our guests have been aliens. While we have managed to accommodate them on an ad hoc basis so far, we need to establish some official policies to ensure that all of our guests continue to receive our signature brand of world-class service. 
+%Recently, an increasing proportion of our guests have been aliens. While we have managed to accommodate them on an ad hoc basis so far, we need to establish some official policies to ensure that all of our guests continue to receive our signature brand of world-class service.
+
+After hosting the historic first summit between our government and that of the so-called ``E.T.s'', our resort has become a popular destination for alien tourists here on Earth. We need to ensure that we can provide them with whatever they need, however unusual, while they are here.
 
 To that end, I will be hosting mandatory meeting tomorrow evening to discuss the matter.
 The following topics are of particular interest:
@@ -89,7 +99,7 @@ The following topics are of particular interest:
 \end{enumerate}   
 
 Please familiarize yourself with a few aspects of the aliens' biology, history, and culture ahead of time.
-By sharing our expertise, we can all learn a bit more about our new guests and find new ways make them feel welcome them here.
+By sharing our expertise, we can all learn a bit more about our new guests and find new ways make them feel welcome.
 
 \hspace{4.5cm}\huge\setmainfont{Caveat}- Arthur B.
 \setmainfont{Quicksand}
@@ -119,12 +129,20 @@ You will ask and answer a series of questions about your alien guests and how th
 \enlargethispage{1.75\baselineskip}
 
 \section*{Characters}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\renewcommand{\footnoterule}{%
+  \kern -3pt
+  \hrule width \textwidth height 0.5pt
+  \kern 2pt
+}
+
 You will portray a hospitality worker who is employed at an all-inclusive tropical resort. To create your character,
 \begin{enumerate}[nosep]
 	\item Describe what you do at the resort.
-	\item Describe your mannerisms and physical appearance.
-	\item Describe two types of questions about the extra terrestrials that you can answer.
-	\item Describe one objective that you want to accomplish at the meeting.
+	\item Describe your background, mannerisms, and physical appearance.
+	\item Describe two types\footnote[1]{This is intentionally vague. If in doubt, pick any two of the standard interrogatives (see {\setmainfont{Dakota Rough}factual questions} for details).} of factual questions about the aliens that you can answer.
+%	\item Describe one objective that you want to accomplish at the meeting.
+	\item Describe one alien-related problem that you would like to solve at the meeting.
 \end{enumerate}
 Introduce yourself to the other characters before the meeting begins.
 
@@ -147,10 +165,10 @@ The general manager has identified four topics of particular interest for discus
 In each of the first four rounds, you will discuss one of these topics.
 
 \subsection*{Facilitators}
-One player should act as the facilitator in each round. Their job is to ensure that everyone has a chance to contribute and that the discussion stays focused on the topic at hand.
+One player should be a facilitator in each round. Their job is to ensure that everyone has a chance to contribute and that the discussion stays focused on the topic at hand. A different player should be the facilitator in each round.
 
 \subsection*{Questions}
-During the game, you will ask and answer questions about the extraterrestrials and the game's setting.
+During the game, you will ask and answer questions about both the aliens and the game's setting.
 You will invent the answers to these questions as they arise to describe the world that your characters inhabit.
 
 \newpage
@@ -194,13 +212,16 @@ Socratic questions are often intended to do one or more of the following:
 
 After someone answers a factual question, you should use Socratic questions to help them flesh out their answer and explain how any new details they introduced interact with other details that had been previously established.
 
-\vfill
-
-\hrulefill
-\begin{description}[nosep]
-\item[\textbf{Contact}:] \href{mailto:nfah.ttrpg@gmail.com}{nfah.ttrpg@gmail.com}\\
-\item[\textbf{License}:] \doclicenseText%This work is licensed under a ``CC BY 4.0'' license.
-\end{description}
+\blfootnote{\textbf{Contact}: \href{mailto:nfah.ttrpg@gmail.com}{nfah.ttrpg@gmail.com}}
+\blfootnote{\textbf{License}: \doclicenseLongText}
+%
+%\vfill
+%
+%\hrulefill
+%\begin{description}[nosep]
+%\item[\textbf{Contact}:] \href{mailto:nfah.ttrpg@gmail.com}{nfah.ttrpg@gmail.com}\\
+%\item[\textbf{License}:] \doclicenseText%This work is licensed under a ``CC BY-SA 4.0'' license.
+%\end{description}
 
 \newpage
 \enlargethispage{1.75\baselineskip}

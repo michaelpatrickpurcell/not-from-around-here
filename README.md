@@ -13,8 +13,8 @@ By doing so, you will describe the world your characters inhabit.
 You will portray a hospitality worker who is employed at an all-inclusive tropical resort. To create your character,
   1. Describe what you do at the resort.
   2. Describe your mannerisms and physical appearance.
-  3. Describe two types of questions about the extra terrestrials that you can answer.
-  4. Describe one objective that you want to accomplish at the meeting.
+  3. Describe two types of factual questions about the aliens that you can answer.
+  4. Describe one alien-related problem that you would like to solve at the meeting.
 
 Introduce yourself to the other characters before the meeting begins.
 
@@ -36,7 +36,7 @@ In each of the first four rounds, you will discuss one of these topics.
 One player should act as the facilitator in each round. Their job is to ensure that everyone has a chance to contribute and that the discussion stays focused on the topic at hand.
 
 ## Questions
-During the game, you will ask and answer questions about the extraterrestrials and the game's setting.
+During the game, you will ask and answer questions about both the aliens and the game's setting.
 You will invent the answers to these questions as they arise to describe the world that your characters inhabit.
 
 ### Factual Questions
