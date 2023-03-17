@@ -12,8 +12,9 @@ By doing so, you will describe the world your characters inhabit.
 # Characters
 You will portray a hospitality worker who is employed at an all-inclusive tropical resort. To create your character,
   1. Describe what you do at the resort.
-  2. Describe your mannerisms and physical appearance.
+  2. Describe your background, mannerisms and physical appearance.
   3. Describe two types of factual questions about the aliens that you can answer.
+     - This is intentionally vague.  If in doubt, pick any two of the standard interrogatives (see [Factual Questions](#factual-questions) below for details).
   4. Describe one alien-related problem that you would like to solve at the meeting.
 
 Introduce yourself to the other characters before the meeting begins.

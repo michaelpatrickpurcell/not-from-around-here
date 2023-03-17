@@ -1,0 +1,25 @@
+\documentclass{standalone}
+
+\usepackage{fontspec}
+\usepackage{tikz}
+
+\begin{document}
+\begin{tikzpicture}
+\setmainfont[Scale=2.0]{Dakota Rough}
+\huge
+\node[inner sep=0pt] at (0,3.75cm) {Not\ \ From};
+\node[inner sep=0pt] at (0,2.25cm) {Around\ \ Here};
+
+\node[draw, inner sep=1pt, line width=0.12cm, rotate=-7] at (3.5cm,-1.125cm) {\includegraphics[scale=0.5]{Images/alien_drinking.png}};
+
+\node[draw, inner sep=1pt, line width=0.2cm, rotate=7] at (-2cm,-1.125cm) {\includegraphics[scale=0.33]{Images/alien_beach_vacation.png}};
+
+
+\setmainfont{Caveat}
+\LARGE
+\node[inner sep=0pt] at (0,-4.125cm) {A Scoratic Worldbuilding Game by Michael Purcell};
+
+\path (-6.3cm, -5cm) -- (6.3cm, 5cm);
+\end{tikzpicture}
+
+\end{document}
